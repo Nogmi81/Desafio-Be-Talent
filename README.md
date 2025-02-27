@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Desafio Be Talent
+Projeto desenvolvido para um desafio proposto pela Be Talent
 
-## Getting Started
+# Projeto de Busca de Funcionários
 
-First, run the development server:
+Este projeto é uma aplicação React que permite buscar informações de funcionários.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Funcionalidades
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-   Busca de funcionários por nome, cargo e telefone.
+-   A busca é efetuada a partir de 1 (um) caractere.
+-   Exibição de todos os funcionários caso a busca esteja vazia.
+-   Sanitização de entrada para prevenir injeção de código malicioso (como os caracteres <, >, aspas ' e " e &).
+-   No caso do descumprimento da regra acima, o input exibe uma mensagem ao usuário: #Caractere NÃO permitido!#.
+-   Validação de entrada para limitar o comprimento do texto de busca (até 30 caracteres, ultrapassando esse limite o input não aceita mais inserção).
+-   A logo quando o mouse sobre ela aplica o efeito de opacidade.
+-   O input quando em foco exibe uma borda azul.
+-   No caso de redimensionamento da tela (menor que 510px) OU em mobile a tabela é ajustada para exibir apenas os campos FOTO e NOME. E uma opção de menu suspenso é disponibilizado para o usuário visualizar os detalhes dos outros campos (CARGO,	DATA DE ADMISSÃO eTELEFONE).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Como Executar
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1.  Clone o repositório: `git clone https://github.com/Nogmi81/Desafio-Be-Talent.git`
 
-## Learn More
+## Estrutura do Projeto
 
-To learn more about Next.js, take a look at the following resources:
+-   `src/pages/page.js`: Componente principal da aplicação.
+-   `src/componentes`: Pasta com componentes reutilizáveis.
+-   `src/service`: Pasta com funções para buscar dados de funcionários.
+-   `src/styles`: Pasta com estilos CSS.
+-   `src/public`: Pasta com imagens do projeto.
+-   `src/public/data`: Pasta contendo JSON.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tecnologias Utilizadas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+-   React
+-   JavaScript
+-   JSON
+-   CSS Modules
 
-## Deploy on Vercel
+## Contribuição
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
