@@ -1,0 +1,125 @@
+/* Estilos para o container principal da página */
+.container {
+  display: flex;
+  flex-direction: column;
+  /* Organiza os elementos em coluna */
+  max-width: 100%;
+  /* Garante que o container ocupe toda a largura disponível */
+  min-height: 70vh;
+  /* Garante que o container ocupe pelo menos 70% da altura da viewport */
+  background: #80808029;
+  /* Cor de fundo cinza com transparência */
+}
+
+/* Estilos para a lista de funcionários (tabela) */
+.listaFuncionarios table {
+  width: 95%;
+  /* Largura da tabela, deixando margens laterais */
+  min-height: 30vh;
+  /* Altura mínima da tabela */
+  margin-top: 0;
+  margin-bottom: 3%;
+  /* Margem inferior para espaçamento */
+  margin-left: auto;
+  margin-right: auto;
+  /* Centraliza a tabela horizontalmente */
+  background-color: #fff;
+  /* Fundo branco para a tabela */
+  border-collapse: collapse;
+  /* Remove espaçamento entre as células */
+  border-radius: 10px 10px 0 0;
+  /* Bordas arredondadas no topo da tabela */
+  overflow: hidden;
+  /* Garante que o border-radius funcione corretamente */
+}
+
+.listaFuncionarios thead tr {
+  border-radius: 10px 10px 0 0;
+  /* Aplica bordas arredondadas ao cabeçalho */
+}
+
+.listaFuncionarios th,
+.listaFuncionarios td {
+  padding: 10px;
+  /* Espaçamento interno das células */
+  border: 1px solid #ccc;
+  /* Borda das células */
+  text-align: left;
+  /* Alinhamento do texto à esquerda */
+}
+
+.listaFuncionarios th {
+  background-color: #0600FF;
+  /* Cor de fundo do cabeçalho */
+  color: #fff;
+  /* Cor do texto do cabeçalho */
+}
+
+.listaFuncionarios img {
+  width: 60px;
+  /* Largura da imagem */
+  height: 60px;
+  /* Altura da imagem */
+  border-radius: 50%;
+  /* Transforma a imagem em um círculo */
+}
+
+/* Estilos responsivos para telas menores que 510px */
+@media (max-width: 510px) {
+  .hideOnMobile {
+    display: none;
+    /* Esconde elementos com esta classe em telas pequenas */
+  }
+
+  .showOnMobile {
+    display: table-cell; 
+    /* Exibe elementos como células de tabela em telas pequenas (até 510px), garantindo alinhamento correto em layouts responsivos de tabela. */
+  }
+
+  .tabela {
+    width: 100%;
+    /* Garante que a tabela ocupe toda a largura em telas pequenas */
+  }
+
+  .tabela th,
+  .tabela td {
+    text-align: center;
+    /* Centraliza o texto nas células em telas pequenas */
+  }
+
+  /* Ajusta a linha de detalhes para ocupar toda a largura */
+  .details td {
+    background-color: #80808029;
+    /* Cor de fundo para a linha de detalhes */
+    padding: 10px;
+    /* Espaçamento interno da célula de detalhes */
+    text-align: left;
+    /* Alinhamento do texto à esquerda */
+    width: 100%;
+    /* Garante que a célula de detalhes ocupe toda a largura */
+  }
+
+  /* Estiliza os botões de expandir/recolher */
+  .showOnMobile button {
+    border: none;
+    /* Remove a borda do botão */
+    background: none;
+    /* Remove o fundo do botão */
+    font-size: 18px;
+    /* Tamanho da fonte do botão */
+    cursor: pointer;
+    /* Muda o cursor para pointer ao passar o mouse */
+    color: #0600FF;
+    /* Cor azul do botão */
+    font-weight: bold;
+    /* Texto em negrito */
+  }
+}
+
+/* Estilos para telas maiores que 511px */
+@media (min-width: 511px) {
+  .showOnMobile {
+    display: none;
+    /* Esconde a coluna do botão em telas grandes */
+  }
+}
