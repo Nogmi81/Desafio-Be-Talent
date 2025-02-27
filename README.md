@@ -21,6 +21,7 @@ Este projeto é uma aplicação React que permite buscar informações de funcio
 ## Como Executar
 
 1.  Clone o repositório: `git clone https://github.com/Nogmi81/Desafio-Be-Talent.git`
+2.  Acesse pelo link: https://desafio-be-talent.vercel.app/
 
 ## Estrutura do Projeto
 
@@ -30,6 +31,12 @@ Este projeto é uma aplicação React que permite buscar informações de funcio
 -   `src/styles`: Pasta com estilos CSS.
 -   `src/public`: Pasta com imagens do projeto.
 -   `src/public/data`: Pasta contendo JSON.
+
+  ## Testes
+
+  -   O link on-line hospedado no Vercel foi testado nos navegadores: Chrome, Edge, Firefox e Opera
+  -   Foi testado em mobile e redimensionamento de tela nos navegadores citados acima
+  
 
 ## Tecnologias Utilizadas
 
