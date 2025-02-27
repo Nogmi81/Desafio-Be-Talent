@@ -28,15 +28,16 @@ Este projeto é uma aplicação React que permite buscar informações de funcio
 -   `src/pages/page.js`: Componente principal da aplicação.
 -   `src/componentes`: Pasta com componentes reutilizáveis.
 -   `src/service`: Pasta com funções para buscar dados de funcionários.
--   `src/styles`: Pasta com estilos CSS.
 -   `src/public`: Pasta com imagens do projeto.
 -   `src/public/data`: Pasta contendo JSON.
 
   ## Testes
 
-  -   O link on-line hospedado no Vercel foi testado nos navegadores: Chrome, Edge, Firefox e Opera
-  -   Foi testado em mobile e redimensionamento de tela nos navegadores citados acima
-  
+  -   O link on-line hospedado no Vercel foi testado nos navegadores: Chrome, Edge, Firefox e Opera. 
+  -   Foi testado em mobile
+  -   Foi testado o redimensionamento de tela nos navegadores citados acima
+
+  Em todos os testes apresentou comportamento como o esperado.
 
 ## Tecnologias Utilizadas
 
