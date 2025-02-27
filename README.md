@@ -9,6 +9,7 @@ Este projeto é uma aplicação React que permite buscar informações de funcio
 
 -   Busca de funcionários por nome, cargo e telefone.
 -   A busca é efetuada a partir de 1 (um) caractere.
+-   A busca filtra por qualquer caractere relacionado aos campos (nome, cargo e telefone). Ex: se for digitado 'ro' qualquer palavra que contenha essa sílaba será reportada, nesse exemplo trará da base tanto o nome: Roberto quanto os cargos Front-End. O mesmo ocorre com números, se for digitado por exemplo '78' há vários números na base de dados que tem esses dois digitos. Todos serão exibidos.
 -   Exibição de todos os funcionários caso a busca esteja vazia.
 -   Sanitização de entrada para prevenir injeção de código malicioso (como os caracteres <, >, aspas ' e " e &).
 -   No caso do descumprimento da regra acima, o input exibe uma mensagem ao usuário: #Caractere NÃO permitido!#.
