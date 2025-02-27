@@ -16,7 +16,7 @@ Este projeto é uma aplicação React que permite buscar informações de funcio
 -   Validação de entrada para limitar o comprimento do texto de busca (até 30 caracteres, ultrapassando esse limite o input não aceita mais inserção).
 -   A logo quando o mouse sobre ela aplica o efeito de opacidade.
 -   O input quando em foco exibe uma borda azul.
--   No caso de redimensionamento da tela (menor que 510px) OU em mobile a tabela é ajustada para exibir apenas os campos FOTO e NOME. E uma opção de menu suspenso é disponibilizada para o usuário visualizar os detalhes dos outros campos (CARGO,	DATA DE ADMISSÃO eTELEFONE).
+-   No caso de redimensionamento da tela (menor que 510px) OU em mobile a tabela é ajustada para exibir apenas os campos FOTO e NOME. E uma opção de menu suspenso é disponibilizada para o usuário visualizar os detalhes dos outros campos (CARGO,	DATA DE ADMISSÃO e TELEFONE).
 
 ## Como Executar
 
