@@ -37,7 +37,7 @@ Este projeto é uma aplicação React que permite buscar informações de funcio
   -   Foi testado em mobile
   -   Foi testado o redimensionamento de tela nos navegadores citados acima
 
-  Em todos os testes apresentou comportamento como o esperado.
+  Em todos os testes a aplicação apresentou comportamento como o esperado.
 
 ## Tecnologias Utilizadas
 
