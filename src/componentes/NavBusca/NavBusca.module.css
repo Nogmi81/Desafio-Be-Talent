@@ -45,3 +45,24 @@
   right: 5px; /* Posiciona o ícone à direita do input */
   transform: translateY(-50%); /* Ajuste fino para centralizar o ícone */
 }
+
+/* Ajuste para telas menores que 400px */
+@media (max-width: 400px) {
+  .secao {
+    flex-direction: column; /* Empilha os elementos */
+    justify-content: center; /* Centraliza verticalmente */
+    height: auto; /* Permite que a altura se ajuste ao conteúdo */
+    gap: 10px; /* Adiciona um espaçamento entre os elementos */
+    padding: 10px; /* Ajusta o padding */
+  }
+
+  .busca input {
+    width: 100%; /* Faz o input ocupar toda a largura disponível */
+    max-width: 310px; /* Define um limite máximo */
+  }
+
+  .icone {
+    height: 40px; /* Redimensiona o ícone para manter a proporção */
+    width: 40px;
+  }
+}
