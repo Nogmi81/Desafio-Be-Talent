@@ -14,9 +14,9 @@
 .icone {
   height: 45px;
   width: 45px;
-  padding: 8px;
-  opacity: 0.7;
-  cursor: pointer;
+  padding: 6px;
+/*   opacity: 0.7;
+  cursor: pointer; */
 }
 
 /* Estilos da secao de busca */
